@@ -1,8 +1,12 @@
 # qa_guru_11_21_mobileTestsHW3
 # Автотесты для Wikipedia (Android)
-> Файл инсталятор apk взят из открытого источника: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
-> Установлен в BS: https://app-automate.browserstack.com/dashboard/v2/get-started#upload-app
-> Получены demo- логин, пароль, путь до приложения
+1. [x] Файл инсталятор apk Wikipedia получен из открытого источника: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
+2. [x] Установлен в BS: https://app-automate.browserstack.com/dashboard/v2/get-started#upload-app
+3. [x] Получены demo- логин, пароль, путь до приложения
+4. [-] Выполнены 2 теста
+5. [x] Тесты запущены в Jenkins
+6. [x] Получен Allure отчет
+7. [-] Добавлены аретфакты тестирваония (скриншот и видео)
 
 ## :four_leaf_clover: Список проведенных тестов: 
 - [x] Автотест на проверку поиска статьи по запросу "BrowserStack"
