@@ -1,13 +1,40 @@
 # qa_guru_11_21_mobileTestsHW3
-Мобильное тестирование Википедии
+# Автотесты для Wikipedia (Android)
+> Файл инсталятор apk взят из открытого источника: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
+> Установлен в BS: https://app-automate.browserstack.com/dashboard/v2/get-started#upload-app
+> Получены demo- логин, пароль, путь до приложения
 
-Инсталятор Википедии взят в открытом источнике: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
+## :four_leaf_clover: Список проведенных тестов: 
+- [x] Тест на проверку поиска статьи по запросу "Java"
+- [x] Тест на проверку экранов getting started при запуске приложения
 
-Установлен в BS: https://app-automate.browserstack.com/dashboard/v2/get-started#upload-app
+## <img width="4%" title="Jenkins" src="img/logo/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/011-kos2304-work22Android/)
 
-/*  You have successfully uploaded your app. Note the "app_url" value below. It uniquely identifies your uploaded app on BrowserStack. */
-{"app_url":"bs://dd10797b0964a39992c27c3229437d22307bd6c5"}
-/* In your test script, use this "app_url" value to specify the application under test using the "app" capability. During test execution, your app will automatically be installed and launched on the device being tested. */
-caps.setCapability("app", "bs://dd10797b0964a39992c27c3229437d22307bd6c5")
+## :four_leaf_clover: Allure
+###### Главный экран Allure отчета (Owerwiev)
+<p align="center">
+<img title="Allure Graphics" src="img/allure1.jpg"  width="1000" >
+</p>
+
+###### Страница Allure с проведенными тестами (Suites)
+<p align="center">
+<img title="Allure Graphics" src="img/allure2.jpg"  width="1000">
+</p>
+
+## :watermelon: Скриншот прохождения тестов
+К каждому тесту прилагается автоматически сгенерированный скриншот показывающий состояние исследуемого приложения на момент остановки теста. Пример:
+<p align="center">
+  <img title="Screenshot" src="img/last_screen.png" width="300" alt="Screenshot">
+</p>
+
+## :watermelon: Видео прохождения тестов
+К каждому тесту прилагается автоматически сгенерированное видео. Пример:
+<p align="center">
+  <img title="Video" src="img/video.gif"  width="300"  alt="Video">
+</p>
+
+-------
+ver1 2022-04-28
+
 
 

@@ -2,6 +2,7 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+//! путь до места хранения переменных. Файл сгенерирует jenkins
 @Config.Sources({"classpath:config/androidEmulator.properties"})
 public interface AndroidEmulatorConfig extends Config {
 

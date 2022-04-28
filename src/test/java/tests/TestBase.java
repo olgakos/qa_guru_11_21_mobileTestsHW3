@@ -24,6 +24,7 @@ public class TestBase {
         Configuration.browser = getDeviceDriver(deviceHost);
         //Configuration.browser = BrowserstackMobileDriver.class.getName();
         //Configuration.browser = EmulatorDriver.class.getName();
+        //Configuration.startMaximized = false; //NB, для мобильных приложений это не нужно
         Configuration.browserSize = null;
     }
 
@@ -35,7 +36,7 @@ public class TestBase {
     @AfterEach
     public void afterEach() {
         String sessionId = getSessionId();
-
+//добавляем вложения:
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
 
