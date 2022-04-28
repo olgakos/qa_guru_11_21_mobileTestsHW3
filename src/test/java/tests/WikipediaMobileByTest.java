@@ -19,6 +19,7 @@ import org.junit.jupiter.api.Test;
 
 public class WikipediaMobileByTest extends TestBase {
 
+
     @Owner("olgakos")
     @Feature("Mobile smoke tests")
     @DisplayName("Проверка мобильной Wikipedia (MobileBy). Поиск статьи по запросу Java")
