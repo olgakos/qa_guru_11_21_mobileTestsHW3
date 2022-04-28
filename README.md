@@ -1,12 +1,11 @@
-# qa_guru_11_21_mobileTestsHW3
 # Автотесты для Wikipedia (Android)
 1. [x] Файл инсталятор apk Wikipedia получен из открытого источника: https://github.com/wikimedia/apps-android-wikipedia/releases/tag/latest
 2. [x] Установлен в BS: https://app-automate.browserstack.com/dashboard/v2/get-started#upload-app
 3. [x] Получены demo- логин, пароль, путь до приложения
-4. [-] Выполнены 2 теста
+4. [--] Выполнены 2 теста
 5. [x] Тесты запущены в Jenkins
 6. [x] Получен Allure отчет
-7. [-] Добавлены аретфакты тестирваония (скриншот и видео)
+7. [--] Добавлены аретфакты тестирваония (скриншот и видео)
 
 ## :four_leaf_clover: Список проведенных тестов: 
 - [x] Автотест на проверку поиска статьи по запросу "BrowserStack"
@@ -14,7 +13,7 @@
 
 ## <img width="4%" title="Jenkins" src="img/logo/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/011-kos2304-work22Android/)
 
-## :four_leaf_clover: Allure
+## <img width="4%" title="Allure" src="img/logo/allure-report-logo"> Allure
 ###### Главный экран Allure отчета (Owerwiev)
 <p align="center">
 <img title="Allure Graphics" src="img/allure1.jpg"  width="1000" >
