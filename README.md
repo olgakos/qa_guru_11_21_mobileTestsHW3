@@ -13,7 +13,7 @@
 
 ## <img width="4%" title="Jenkins" src="img/logo/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/011-kos2304-work22Android/)
 
-## <img width="4%" title="Allure" src="img/logo/allure-report-logo"> Allure
+## <img width="4%" title="Allure" src="img/logo/allure-report-logo.svg"> Allure
 ###### Главный экран Allure отчета (Owerwiev)
 <p align="center">
 <img title="Allure Graphics" src="img/allure1.jpg"  width="1000" >
