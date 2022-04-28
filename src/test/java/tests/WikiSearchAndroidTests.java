@@ -22,8 +22,8 @@ import static io.qameta.allure.Allure.step;
 public class WikiSearchAndroidTests extends TestBase {
 
     @Test
-    @DisplayName("Поиск статьи по запросу Appium")
-    @Tags({@Tag("api"), @Tag("bonseller")})
+    @DisplayName("Автотест на проверку поиска статьи по запросу \"BrowserStack\"")
+    @Tags({@Tag("api")})
     @Severity(SeverityLevel.NORMAL)
     void wikiSearchSkipOnBoardingTest() {
         step("Skip onboarding page", () -> back());
@@ -31,7 +31,7 @@ public class WikiSearchAndroidTests extends TestBase {
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text"))
-                    .setValue("Appium");
+                    .setValue("BrowserStack");
         });
 
         step("Verify content found", () ->
@@ -40,7 +40,7 @@ public class WikiSearchAndroidTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверка страниц Onboarding при запуске приложения")
+    @DisplayName("getting started в приложении википедии - пройти по 4м экранам, на каждом сделать проверку")
     @Tags({@Tag("api")})
     @Severity(SeverityLevel.NORMAL)
     void wikiOnBoardingStepsTest() {

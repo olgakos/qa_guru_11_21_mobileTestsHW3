@@ -12,7 +12,7 @@ public class DeviceSelection {
             case "browserstack":
                 return BrowserstackMobileDriver.class.getName();
 
-
+//параметры для Дженкинса:
             default:
                 throw new RuntimeException("Please select only " +
                         "emulation / browserstack / -DdeviceHost parameter");

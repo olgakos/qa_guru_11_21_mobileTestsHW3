@@ -5,8 +5,8 @@
 > Получены demo- логин, пароль, путь до приложения
 
 ## :four_leaf_clover: Список проведенных тестов: 
-- [x] Тест на проверку поиска статьи по запросу "Java"
-- [x] Тест на проверку экранов getting started при запуске приложения
+- [x] Автотест на проверку поиска статьи по запросу "BrowserStack"
+- [x] Автотест на getting started в приложении википедии - пройти по 4м экранам, на каждом сделать проверку
 
 ## <img width="4%" title="Jenkins" src="img/logo/jenkins-logo.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/011-kos2304-work22Android/)
 
