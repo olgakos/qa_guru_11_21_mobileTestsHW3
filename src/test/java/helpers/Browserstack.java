@@ -1,7 +1,7 @@
 package helpers;
 
 import static io.restassured.RestAssured.given;
-// log-pass
+//log-pass is here
 public class Browserstack {
 
     public static String videoUrl(String sessionId) {
