@@ -6,9 +6,11 @@
 3. [x] Получены demo-логин, пароль, путь до приложения
 4. [x] Выполнены 2 теста
 5. [x] Тесты запущены в Jenkins
+<!--
 6. [x] Получен Allure отчет
 7. [-] Добавлены артефакты тестирования (скриншот и видео)
-
+-->
+8. 
 <!--## :watermelon: Технологии и инструменты
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IJ IDEA"></a>  
 <a href="https://www.java.com/"><img src="images/logo/Browserstack.svg" width="50" height="50"  alt="Java"/></a>
