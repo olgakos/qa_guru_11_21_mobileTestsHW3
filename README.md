@@ -12,7 +12,7 @@
 <!--## :watermelon: Технологии и инструменты
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA" title="IJ IDEA"></a>  
 <a href="https://www.java.com/"><img src="images/logo/Browserstack.svg" width="50" height="50"  alt="Java"/></a>
-<a href="https://web.telegram.org/"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="olgakos" title="Browserstack"></a> 
+<a href="ххх"><img src="images/logo/Telegram.svg" width="50" height="50"  alt="olgakos" title="Browserstack"></a> 
 -->
 
 ## :four_leaf_clover: Список проведенных тестов: 
